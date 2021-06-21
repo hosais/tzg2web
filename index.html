@@ -126,7 +126,8 @@
                                         <div class="col-xl-6 col-lg-7 col-sm-10">
                                             <h2 class="carousel-title"></h2>
                                             <ul class="carousel-btn rounded-buttons">
-                                                <li><a class="main-btn rounded-three" href="#"></a></li>
+                                                <li><a class="main-btn rounded-three" href="#">網路下單</a></li>
+                                                <li><a class="main-btn rounded-two" href="#">看菜單</a></li>
                                                 
                                             </ul>
                                         </div>
@@ -742,8 +743,11 @@
         (function () {
             var options = {
                 facebook: "1409124462504339", // Facebook page ID
+                line: "//lin.ee/wCjRjDG", // Line QR code URL
                 call_to_action: "馬上提問", // Call to action
+                button_color: "#129BF4", // Color of button
                 position: "left", // Position may be 'right' or 'left'
+                order: "facebook,line", // Order of buttons
             };
             var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
             var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
@@ -751,7 +755,7 @@
             var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
         })();
     </script>
-<!-- /GetButton.io widget -->
+    <!-- /GetButton.io widget -->
 </body>
 
 </html>
