@@ -1170,7 +1170,8 @@ p {
   font-size: 32px;
   position: relative;
   overflow: hidden;
-  color: #fff;
+  /* menu bar modified by joseph */
+  color: #10537a;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
