@@ -227,7 +227,7 @@ p {
   width: 200%;
   height: 100%;
   border-style: solid;
-  /* Spinner Color */ /* modified by Joseph */
+  /* Spinner Color */ /* Spinner Color  modified by Joseph */
   border-color: #f9e638 #f9e638 #cbced1;
   border-radius: 50%;
   border-width: 6px;
@@ -557,19 +557,20 @@ p {
   overflow: hidden;
   line-height: 52px;
   background: -webkit-linear-gradient(
-    /* mofidefied by Joseph */ left,
+    /* rounded-buttons modified by Joseph */ left,
     #e99c37 0%,
     #f9e638 50%,
     #e9a143 100%
   );
   background: -o-linear-gradient(
-    /* mofidefied by Joseph */ left,
+    /* rounded-buttons modified  */ left,
     #e99c37 0%,
     #f9e638 50%,
     #e9a143 100%
-  ); /* mofidefied by Joseph */
+  ); /* modified by Joseph */
   background: linear-gradient(to right, #e99c37 0%, #f9e638 50%, #e9a143 100%);
   background-size: 200% auto;
+  /* btn text modified by Joseph */
   color: #fff;
   border: 0;
   -webkit-transition: all 0.1s ease-out 0s;
@@ -758,7 +759,7 @@ p {
 /*===========================
        3.HEADER css 
 ===========================*/
-/*===== NAVBAR EIGHT =====*/ /*   modified by Joseph */
+/*===== NAVBAR EIGHT =====*/ /*   navbar modified by Joseph */
 .navbar-area {
   background: -webkit-linear-gradient(left, #fff 0%, #fdfdfd 100%);
   background: -o-linear-gradient(left, #fff 0%, #fdfdfd 100%);
@@ -873,7 +874,7 @@ p {
   line-height: 24px;
   font-weight: 700;
   padding: 11px 16px;
-  color: #10537a; /*　changed by Joseph */
+  color: #10537a; /*　navbar changed by Joseph */
   text-transform: uppercase;
   position: relative;
   border-radius: 5px;
@@ -911,7 +912,7 @@ p {
     to right,
     #10537a 0%,
     #38dcf9 100%
-  ); /* modified by Joseph the active under line color*/
+  ); /* the active under line color modified by Joseph */
   left: 50%;
   bottom: 0;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1383,7 +1384,8 @@ p {
   padding-top: 94px;
 }
 .slider-area .bd-example .carousel .carousel-inner {
-  background-color: #38f9d7;
+  /* slider-area joseph modified */
+  background-color: #f9e638;
 }
 .slider-area .bd-example .carousel .carousel-inner .carousel-item {
   height: 700px;
@@ -1428,7 +1430,8 @@ p {
   .carousel-title {
   font-size: 44px;
   font-weight: 700;
-  color: #fff;
+  /* slider-area modified by Joseph */
+  color: rgb(255, 157, 29);
   line-height: 55px;
 }
 @media (max-width: 767px) {
@@ -1486,8 +1489,9 @@ p {
   .carousel-btn
   li
   a.rounded-one {
+  /* btn color modified by Joseph */
   border-color: #fff;
-  color: #fff;
+  color: #000;
 }
 .slider-area
   .bd-example
@@ -2013,7 +2017,7 @@ p {
   left: 0;
   width: 100%;
   height: 4px;
-  /* Modified by Joseph */
+  /* porfolio Modified by Joseph */
   background: -webkit-linear-gradient(left, #e99c37 0%, #f9e638 100%);
   background: -o-linear-gradient(left, #e99c37 0%, #f9e638 100%);
   background: linear-gradient(to right, #e99c37 0%, #f9e638 100%);
@@ -2028,7 +2032,7 @@ p {
 }
 .portfolio-menu ul li:hover,
 .portfolio-menu ul li.active {
-  /* modified by Joseph */
+  /* portolio modified by Joseph */
   color: #f9e638;
 }
 .portfolio-menu ul li:hover::before,
@@ -2604,7 +2608,7 @@ p {
 }
 .testimonial-active-2 .slick-dots li.slick-active button,
 .testimonial-active .slick-dots li.slick-active button {
-  /* Modified by Joseph */
+  /* testimonial Modified by Joseph */
   background-color: #f9e638;
 }
 
@@ -3006,7 +3010,7 @@ p {
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
-  background-color: #e99c37; /* modified by Joseph */
+  background-color: #e99c37; /* backup-to-top modified by Joseph */
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
