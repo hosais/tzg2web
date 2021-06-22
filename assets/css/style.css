@@ -2760,6 +2760,13 @@ p {
   padding-bottom: 100px;
   background-color: #face7c;
 }
+.open-hours {
+  /* joseph added */
+  font-size: 20px;
+  color: #121212;
+  padding: 10px 15px;
+  margin-top: 15px;
+}
 
 .form-message.error,
 .form-message.success {
