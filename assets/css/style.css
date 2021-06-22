@@ -1785,12 +1785,23 @@ p {
 .single-about .about-content {
   padding-left: 30px;
 }
-
+@media (max-width: 767px) {
+  .single-about .about-content {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-about .about-content {
+    padding-left: 30px;
+    padding-top: 0;
+  }
+}
 /* joseph add for first part of about */
 .single-about .about-content .about-title-first {
   font-size: 30px;
   font-weight: 600;
-  line-height: 25px;
+  line-height: 35px;
   color: #a82e2e;
 }
 .single-about .about-content .text-first {
