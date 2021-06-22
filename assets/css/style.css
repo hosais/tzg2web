@@ -1740,7 +1740,7 @@ p {
 ===========================*/
 .about-area {
   position: relative;
-  background-color: #f4f6f7;
+  background-color: #f7f3e2; /* about background color joseph modified */
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -1797,14 +1797,29 @@ p {
     padding-top: 0;
   }
 }
-.single-about .about-content .about-title {
-  font-size: 20px;
+/* joseph add for first part of about */
+.single-about .about-content .about-title-first {
+  font-size: 30px;
   font-weight: 600;
   line-height: 25px;
+  color: #a82e2e;
+}
+.single-about .about-content .text-first {
+  font-size: 20px;
+  font-weight: bold;
   color: #121212;
+  margin-top: 16px;
+  line-height: 250%;
+}
+
+.single-about .about-content .about-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #a82e2e;
 }
 .single-about .about-content .text {
-  font-size: 16px;
+  font-size: 18px;
   color: #121212;
   margin-top: 16px;
 }
@@ -2758,7 +2773,7 @@ p {
 .contact-area {
   padding-top: 95px;
   padding-bottom: 100px;
-  background-color: #face7c;
+  background-color: #fadda6;
 }
 .open-hours {
   /* joseph added */
@@ -3037,4 +3052,8 @@ p {
 .powr-social-feed {
 }
 
+.spotlight_text {
+  color: #a82e2e;
+  display: inline;
+}
 /*# sourceMappingURL=style.css.map */
