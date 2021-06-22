@@ -60,6 +60,15 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- ... [unitegallery plugin] ... -->
+		
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+		<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script> 
+		
+		<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' /> 
+		<script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script> 
+		<link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' /> 
+
 
 </head>
 
@@ -264,9 +273,22 @@
                 <div class="col-lg-6">
                     <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">
                         <div class="about-content media-body" >
-                            <h4 class="about-title-first" >健康食材 中西傳統 的手工甜點</h4>
-                            <p class="text-first">為了給顧客最好的，艾塔甜品採用<span class="spotlight_text">非基改黃豆，新鮮的芋頭和地瓜, 香氣夠的天然仙草乾等天然食材</span>, 並堅持<span class="spotlight_text">自行製作</span>所以得以用心調整每一個細節.</span> 為的是給顧客感受來一碗上好甜點的幸福.
-                            </p>  
+                        <!-- united galery body -->
+                        <div id="gallery" style="display:none;">
+		
+                            <img alt="Image 1 Title" src="assets/thumbs/about-2tt.png"
+                                data-image="assets/images/about-2.png"
+                                data-description="Image about 2">
+                            
+                                <img alt="Image 1 Title" src="assets/thumbs/about-3tt.png"
+                                data-image="assets/images/about-3.png"
+                                data-description="Image about 2">
+                        
+                        </div>
+
+
+
+                             
                         </div>
                     </div> <!-- single about -->
                 </div>
@@ -320,57 +342,6 @@
     </section>
 
     <!--====== ABOUT PART ENDS ======-->
-    
-    <!--====== portfolio PART START ======-->
-
-    <section id="portfolio" class="portfolio-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                
-                <h3 class="title">
-                    <a href="https://tarozafra-tw.weebly.com/menu.html">美味菜單</a>
-                </h3>   
-                
-                <div class="single-portfolio">
-                    <div class="portfolio-image">
-                        <a href="https://tarozafra-tw.weebly.com/menu.html">
-                            <img src="./assets/images/aita_orig.jpg" alt="美味餐點" style="padding-top: 40px;">
-                        </a>  
-                    </div>
-                    
-                </div>                     
-                                              
-                    
-            </div> <!-- row -->  
-        </div> <!-- container -->
-    </section>
-
-    <!--====== portfolio PART ENDS ======-->
-    
-    
-    
-    <!--====== CALL TO ACTION TWO PART START ======-->
-
-    <section id="call-action" class="call-action-area">
-        <div class="container">
-            <div class="powr-social-feed" id="bf225b67_1624297543"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
-                
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    
-                    
-                </div>
-                <div class="col-lg-7">
-                   
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== CALL TO ACTION TWO PART ENDS ======-->
-    
-        
-    
     
     
 <!--====== CONTACT TWO PART START ======-->
@@ -546,6 +517,15 @@
         })();
     </script>
     <!-- /GetButton.io widget -->
+    <!-- /initiate unitegallery -->
+    <script type="text/javascript"> 
+			
+        jQuery(document).ready(function(){ 
+            jQuery("#gallery").unitegallery(); 
+        }); 
+    
+    </script>
+    <!-- end /initiate unitegallery -->
 </body>
 
 </html>
