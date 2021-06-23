@@ -3057,8 +3057,6 @@ p {
   display: inline;
 }
 
-
-
 /*# sourceMappingURL=style.css.map */
 /* simple css gellery */
 .gallery {
@@ -3101,10 +3099,50 @@ p {
   left: 0;
   padding: 25px 15px 15px;
   width: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: white;
   opacity: 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   transition: 0.3s;
+}
+/* paragraph */
+.paragraph .text {
+  font-size: 20px;
+  line-height: 200%;
+  padding: 30px;
+  list-style-position: inside;
+}
+.paragraph .redtext {
+  color: #a82e2e;
+}
+.paragraph .greentext {
+  color: darkgreen;
+}
+
+.paragraph .title {
+  font-size: 30px;
+  color: darkgreen;
+  font-weight: 700;
+  padding: 70px;
+}
+ul.disc {
+  list-style-type: disc;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 90px;
+}
+ol.number {
+  list-style-type: decimal;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 90px;
+}
+
+.paragraph span {
+  display: inline;
 }
