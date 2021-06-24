@@ -3115,13 +3115,17 @@ p {
   font-size: 20px;
   line-height: 200%;
   padding: 30px;
-  list-style-position: inside;
+  list-style-position: inside; /* None make items not showed */
 }
 .paragraph .redtext {
   color: #a82e2e;
 }
 .paragraph .greentext {
   color: darkgreen;
+}
+.paragraph .utext {
+  /* underline text */
+  text-decoration-line: underline;
 }
 
 .paragraph .title {
