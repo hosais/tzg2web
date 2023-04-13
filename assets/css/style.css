@@ -3150,3 +3150,29 @@ ol.number {
 .paragraph span {
   display: inline;
 }
+
+
+
+
+div.menubutton {
+    padding-bottom: 10px;
+}
+a.menubutton:link, a:visited {
+        background-color: #ff0707;
+        color: #fff;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 50px;
+        font-size: 2em;            
+        }
+
+a.menubutton:hover, a:active {
+    background-color:  #e8a9a9;
+}
+
+
+
+
+
