@@ -3172,6 +3172,17 @@ a.menubutton:hover, a:active {
     background-color:  #e8a9a9;
 }
 
+.redtext {
+  color: #a82e2e;
+}
+.greentext {
+  color: darkgreen;
+}
+.utext {
+  /* underline text */
+  text-decoration-line: underline;
+}
+
 
 /*===========================
          qr css 
