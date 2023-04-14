@@ -3173,6 +3173,93 @@ a.menubutton:hover, a:active {
 }
 
 
+/*===========================
+         qr css 
+===========================*/
+.qr-area {
+  position: relative;
+  background-color: #edf0dc; /* about background color joseph modified */
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.qr-area .section-title .title {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 55px;
+  color: #047043;
+}
+@media (max-width: 767px) {
+  .qr-area .section-title .title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .qr-area .section-title .title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+.qr-area .section-title .text {
+  font-size: 20px;
+  line-height: 25px;
+  color: #121212;
+  margin-top: 8px;
+}
+@media (max-width: 767px) {
+  .qr-area .section-title .text {
+    font-size: 16px;
+  }
+}
 
+.single-qr .qr-icon img {
+  width: 120px;
+}
+@media (max-width: 767px) {
+  .single-qr .qr-icon img {
+    width: 100px;
+  }
+}
+.single-qr .qr-content {
+  padding-left: 30px;
+}
+@media (max-width: 767px) {
+  .single-qr .qr-content {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-qr .qr-content {
+    padding-left: 30px;
+    padding-top: 0;
+  }
+}
+/* joseph add for first part of about */
+.single-qr .qr-content .qr-title-first {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+  color: #047043;
+}
+.single-qr .qr-content .text-first {
+  font-size: 20px;
+  font-weight: bold;
+  color: #121212;
+  margin-top: 16px;
+  line-height: 250%;
+}
+
+.single-qr .qr-content .qr-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #047043;
+}
+.single-qr .qr-content .text {
+  font-size: 18px;
+  color: #121212;
+  margin-top: 16px;
+}
 
 
